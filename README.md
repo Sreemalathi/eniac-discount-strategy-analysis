@@ -14,12 +14,12 @@ This project uses transaction-level data to find out who the evidence supports �
 | Question | Answer |
 |---|---|
 | How much of the business relies on discounting? | **92.8%** of all transactions involved a discount. **96.2%** of products that ever sold were discounted at least once. |
-| How deep are the discounts? | Mean **23.2%**, median **19.5%** off list price — substantial, not token. ~25% of discounted sales are marked down 30%+. |
+| How deep are the discounts? | Mean **23.2%**, median **19.5%** off list price — substantial, ~25% of discounted sales are marked down 30% and above. |
 | Does Black Friday mean deeper discounts? | No. Discount depth during Black Friday week (**23.38%**) is nearly identical to the rest of the year (**23.23%**). The revenue spike is driven by order volume and basket size, not markdowns. |
 | Does discounting drive revenue? | **No meaningful relationship.** Daily-level correlation r = 0.086; product-level r = **-0.125** (weak negative). Deeper discounts do not reliably produce more revenue. |
 | Which categories benefit most/least from discounting? | Correlation ranges from **+0.21** (Software) to **-0.19** (Apple Devices) — the effect isn't uniform across the catalog. |
 
-**Bottom line:** discounting is already the steady-state condition of the business, not an occasional lever — and the data does not support deepening it further. See `AA_Analysis_Recommendation.ipynb` for the full write-up and category-level recommendations.
+**Bottom line:** discounting is already the steady-state condition of the business, not an occasional lever — and the data does not support deepening it further. See `4_Analysis_Recommendation.ipynb` for the full write-up and category-level recommendations.
 
 ## Data Pipeline
 
@@ -44,8 +44,6 @@ The analysis is built across four notebooks, each one producing the input for th
    ├─ Discount depth, seasonality, correlation, price distribution
    └─ Outputs: charts, findings, executive summary
 ```
-
-> Note: notebook filenames in this repo may still carry their original working titles (`AA_Eniac_Dataset_Exploration.ipynb`, `AA_Quality_Assessment_challenge.ipynb`, etc.) — the numbering above reflects execution order.
 
 ## Data Quality Notes
 
@@ -78,6 +76,7 @@ A few issues were discovered and documented along the way rather than silently p
 
 ## Author
 
-**Sree Malathi**
-Data Analytics with AI, WBS Coding School
-[LinkedIn](https://linkedin.com/in/sree-malathik)
+**Sree Malathi Elancheralathan**  
+**Data Analytics & AI** 
+
+🔗 **[LinkedIn](www.linkedin.com/in/sree-malathik)**
